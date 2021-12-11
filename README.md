@@ -1,7 +1,7 @@
 ### ModMail Bot
 
 <h2>Bot criado inspirado no bot ModMail!</h2>
-<h3>Para rodar o bot é necessário ter o <a href="https://nodejs.org/en/download/">Node</a><br>! Após o preview tem um tutorial de como rodar o bot!</h3>
+<h3>Para rodar o bot é necessário ter o <a href="https://nodejs.org/en/download/">Node</a>!<br>Após o preview tem um tutorial de como rodar o bot!</h3>
 
 <h2>PREVIEW</h2>
 
@@ -26,5 +26,5 @@
 <img src="https://media.discordapp.net/attachments/919055087404466176/919056634238607370/unknown.png">
 <h3>8 - Execute o arquivo "start.bat"!</h3>
 <img src="https://media.discordapp.net/attachments/919055087404466176/919056103109709864/unknown.png">
-
+<br>
 <h3>Qualquer problema, me envie uma mensagem no discord: GuilhermeSantos#4093</h3>
