@@ -172,7 +172,7 @@ client.on('interactionCreate',async(interaction) => {
                     if(interaction.message.channel.id == JSON.parse(ticket).channelId){
                         let index = getItemIndex(ticket, tickets)
                         if(index){
-                            await ticket.splice(index, 1)
+                            await tickets.splice(index, 1)
 
                             fs.writeFile(
                                 'tickets.json',
@@ -195,7 +195,7 @@ client.on('channelDelete', async(channel) => {
             if(channel.id == JSON.parse(ticket).channelId){
                 let index = getItemIndex(ticket, tickets)
                 if(index){
-                    await ticket.splice(index, 1)
+                    await tickets.splice(index, 1)
 
                     fs.writeFile(
                         'tickets.json',
