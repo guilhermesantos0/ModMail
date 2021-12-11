@@ -26,3 +26,5 @@
 <img src="https://media.discordapp.net/attachments/919055087404466176/919056634238607370/unknown.png">
 <h3>8 - Execute o arquivo "start.bat"!</h3>
 <img src="https://media.discordapp.net/attachments/919055087404466176/919056103109709864/unknown.png">
+
+<h3>Qualquer problema, me envie uma mensagem no discord: GuilhermeSantos#4093</h3>
