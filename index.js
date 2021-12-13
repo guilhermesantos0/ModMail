@@ -1,3 +1,9 @@
+/* 
+    ! Este é um produto OPEN SOURCE desenvolvido por GuilhermeSantos#4093!
+    ! totalmente proibida a revenda deste produto!
+    ! Acesse meu GitHub: https://github.com/guilhermesantos0
+*/
+
 const Discord = require('discord.js');
 const config = require('./config.json');
 const client = new Discord.Client({ intents: ["DIRECT_MESSAGES","GUILDS","GUILD_MEMBERS","GUILD_MESSAGES","GUILD_WEBHOOKS","GUILD_MESSAGE_REACTIONS"], partials: ["CHANNEL","GUILD_MEMBER","MESSAGE","REACTION","USER"] });
@@ -5,7 +11,6 @@ const moment = require('moment');
 moment.locale('pt-br')
 const fs = require('fs')
 const colors = require('colors');
-const { channel } = require('diagnostics_channel');
 
 let creatingForms = {}
 
@@ -77,7 +82,6 @@ client.on('messageCreate', async (message) => {
                 message.author.send({ embeds: [embed], components: [row] }).then(msg => {
                     const collector = msg.createMessageComponentCollector({ componentType: "BUTTON", max: 1, time: 60000 })
                     collector.on('collect',async c => {
-                        c.deferUpdate()
                         creatingForms[message.author.id] = false
                         if(c.customId == "openTicket"){
                             
@@ -114,7 +118,6 @@ client.on('messageCreate', async (message) => {
                                     let ticket = new Ticket(ticketData)
 
                                     await tickets.push(JSON.stringify(ticket))
-                                    console.log(tickets)
                                     fs.writeFile(
                                         'tickets.json',
                                         JSON.stringify(tickets), 
