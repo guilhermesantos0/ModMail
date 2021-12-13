@@ -18,7 +18,7 @@
 <img src="https://media.discordapp.net/attachments/919055087404466176/919056102426030161/unknown.png">
 <h3>4 - Clique no botão "Copy". Se quiser, troque a foto ou o nome do bot nesta página!</h3>
 <img src="https://media.discordapp.net/attachments/919055087404466176/919056102648324136/unknown.png">
-<h3>5 - Cole o token copiado no arquivo "config.json". A falta de qualquer uma dessas informações tornará o bot inutilizável!<br>OBS: A cor deve ser em formato de HEX, sem o "#". <a href="https://htmlcolorcodes.com">Clique aqui para escolher a cor</a>!</h3>
+<h3>5 - Cole o token copiado no arquivo "config.json". A falta de qualquer uma dessas informações tornará o bot inutilizável!</h3>
 <img src="https://media.discordapp.net/attachments/919055087404466176/919056102874841159/unknown.png">
 <h3>6 - Selecione todas estas opções!</h3>
 <img src="https://media.discordapp.net/attachments/919055087404466176/919058447494959124/unknown.png">
@@ -27,4 +27,4 @@
 <h3>8 - Execute o arquivo "start.bat"!</h3>
 <img src="https://media.discordapp.net/attachments/919055087404466176/919056103109709864/unknown.png">
 <br>
-<h4>Qualquer problema, me envie uma mensagem no discord: GuilhermeSantos#4093</h4>
+<h4>Qualquer problema, me envie uma mensagem no discord: GuilhermeSantos#4093 (Necessário adicionar como amigo!)</h4>
